@@ -1,6 +1,6 @@
 # Minecraft but it's controlled by dancing
 
-Inspired by one of Fundy's videos, I attempted to control Minecraft with dance moves. it didn't turn out too well, but it works about 30% of the time, and thats a big deal to me. 
+Inspired by one of Fundy's videos, I attempted to control Minecraft with dance moves. It didn't turn out too well, but it works about 30% of the time, and thats a big deal to me. 
 
 
 # Controls
