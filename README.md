@@ -23,3 +23,5 @@ Left hand raised up - Scroll hotbar to the left
 # Stuff to keep in mind
 
 Ensure theres plenty of lighting, if the model doesnt recognise you, the program crashes. 
+
+Ensure that the mouse cursor is on the minecraft window
