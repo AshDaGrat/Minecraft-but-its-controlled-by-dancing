@@ -25,3 +25,5 @@ Left hand raised up - Scroll hotbar to the left
 Ensure theres plenty of lighting, if the model doesnt recognise you, the program crashes. 
 
 Ensure that the mouse cursor is on the minecraft window
+
+Press esc to stop the program
