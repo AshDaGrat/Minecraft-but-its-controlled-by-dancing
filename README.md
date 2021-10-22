@@ -1,1 +1,25 @@
-# Minecraft-but-its-controlled-by-dancing
+# Minecraft but it's controlled by dancing
+
+I attempted to control Minecraft with dance moves, it didn't turn out too well, But it works about 30% of the time, and thats a big deal. 
+
+
+# Controls
+
+Dab - Right click
+
+Heart above head - Left click
+
+T Pose - Sprint 
+
+Right hand to the side - Look right
+
+Left hand to the side - Look Left
+
+Right hand raised up - Scroll hotbar to the right 
+
+Left hand raised up - Scroll hotbar to the left 
+
+
+# Stuff to keep in mind
+
+Ensure theres plenty of lighting, if the model doesnt recognise you, the program crashes. 
