@@ -9,9 +9,7 @@ pose_video = mp_pose.Pose(static_image_mode = False, min_detection_confidence = 
 video = cv2.VideoCapture(0)
 
 while video.isOpened():
-    ok, frame = video.read()
-    if not ok:
-        break
+    frame = video.read()
     k = cv2.waitKey(1)
     if(k == 27):
         break
@@ -23,8 +21,11 @@ while video.isOpened():
     frame, landmarks = pd.detectPose(frame, pose_video, display = False)
     cv2.imshow('Video Feed', frame)
 
-    print(pd.classifyPose(landmarks))
-    mc.minecraft(pd.classifyPose(landmarks))
+    try: 
+        print(pd.classifyPose(landmarks))
+        mc.minecraft(pd.classifyPose(landmarks))
+    except IndexError:
+        print("Model doesnt recognise you, some common errors include : not being in frame, not enough lighting")
 
 video.release()
 cv2.destroyAllWindows()
