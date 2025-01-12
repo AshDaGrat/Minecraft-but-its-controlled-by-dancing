@@ -1,6 +1,5 @@
-# Minecraft but it's controlled by dancing
-
-This project enables you to control Minecraft using specific dance moves detected through your webcam.
+# HoloHands Controller 
+This project enables you to control a videogame using specific dance moves detected through your webcam.
 
 # Features
 
@@ -49,7 +48,7 @@ python main.py
 
 ## Start Minecraft:
 
-Ensure the Minecraft window is active and the mouse cursor is within the window.
+Ensure the videogame window is active and the mouse cursor is within the window.
 Perform the designated dance moves to control the game.
 
 # Important Notes
